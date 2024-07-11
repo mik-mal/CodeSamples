@@ -1,0 +1,681 @@
+[
+{
+    "IATA_AIDX_FlightLegNotifRQ": {
+        "@xmlns": "http://www.iata.org/IATA/2007/00",
+        "@xmlns:ba": "http://baplc.com/extensionSchema",
+        "@xmlns:fo": "http://www.w3.org/1999/XSL/Format",
+        "@xmlns:thread": "java:java.lang.Thread",
+        "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@AltLangID": "en-us",
+        "@PrimaryLangID": "en-us",
+        "@SequenceNmbr": "4329",
+        "@Target": "Test",
+        "@TimeStamp": "2023-10-16T14:21:33.707Z",
+        "@TransactionIdentifier": "FLT:AXETL",
+        "@Version": "15.1",
+        "Originator": {
+            "@CompanyShortName": "BA"
+        },
+        "DeliveringSystem": {
+            "@CompanyShortName": "BA"
+        },
+        "FlightLeg": {
+            "LegIdentifier": {
+                "Airline": {
+                    "@CodeContext": "3",
+                    "#text": "BA"
+                },
+                "FlightNumber": "986",
+                "DepartureAirport": {
+                    "@CodeContext": "3",
+                    "#text": "LHR"
+                },
+                "ArrivalAirport": {
+                    "@CodeContext": "3",
+                    "#text": "BER"
+                },
+                "OriginDate": "2023-10-16",
+                "RepeatNumber": "1"
+            },
+            "LegData": {
+                "OperationalStatus": [
+                    {
+                        "@CodeContext": "1245",
+                        "@RepeatIndex": "1",
+                        "#text": "SCH"
+                    },
+                    {
+                        "@CodeContext": "1245",
+                        "@RepeatIndex": "2",
+                        "#text": "SCH"
+                    }
+                ],
+                "ServiceType": "J",
+                "EstFlightDuration": "PT88M",
+                "OwnerAirline": {
+                    "Airline": "BA"
+                },
+                "PlannedArrivalAptHistory": {
+                    "@CodeContext": "3",
+                    "@RepeatIndex": "1",
+                    "#text": "BER"
+                },
+                "AssociatedFlightLegAircraft": [
+                    {
+                        "@RepeatIndex": "1",
+                        "Airline": {
+                            "@CodeContext": "3",
+                            "#text": "BA"
+                        },
+                        "FlightNumber": "435",
+                        "DepartureAirport": {
+                            "@CodeContext": "3",
+                            "#text": "AMS"
+                        },
+                        "ArrivalAirport": {
+                            "@CodeContext": "3",
+                            "#text": "LHR"
+                        },
+                        "OriginDate": "2023-10-16",
+                        "RepeatNumber": "1"
+                    },
+                    {
+                        "@RepeatIndex": "2",
+                        "Airline": {
+                            "@CodeContext": "3",
+                            "#text": "BA"
+                        },
+                        "FlightNumber": "987",
+                        "DepartureAirport": {
+                            "@CodeContext": "3",
+                            "#text": "BER"
+                        },
+                        "ArrivalAirport": {
+                            "@CodeContext": "3",
+                            "#text": "LHR"
+                        },
+                        "OriginDate": "2023-10-16"
+                    }
+                ],
+                "AirportResources": {
+                    "@Usage": "Actual",
+                    "Resource": [
+                        {
+                            "@DepartureOrArrival": "Departure",
+                            "Runway": null,
+                            "AircraftTerminal": "5",
+                            "PublicTerminal": {
+                                "@RepeatIndex": "1",
+                                "#text": "5"
+                            }
+                        },
+                        {
+                            "@DepartureOrArrival": "Arrival",
+                            "Runway": null,
+                            "AircraftTerminal": "1",
+                            "PublicTerminal": {
+                                "@RepeatIndex": "1",
+                                "#text": "1"
+                            }
+                        }
+                    ]
+                },
+                "OperationTime": [
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "SAT",
+                        "@RepeatIndex": "1",
+                        "@TimeType": "TAR",
+                        "@xsi:nil": "true"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "OFB",
+                        "@RepeatIndex": "2",
+                        "@TimeType": "SCT",
+                        "#text": "2023-10-16T15:00:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "OFB",
+                        "@RepeatIndex": "3",
+                        "@TimeType": "CAL",
+                        "#text": "2023-10-16T15:14:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "OFB",
+                        "@RepeatIndex": "4",
+                        "@TimeType": "TAR",
+                        "#text": "2023-10-16T15:14:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TKO",
+                        "@RepeatIndex": "5",
+                        "@TimeType": "CAL",
+                        "#text": "2023-10-16T15:39:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TKO",
+                        "@RepeatIndex": "6",
+                        "@TimeType": "TAR",
+                        "@xsi:nil": "true"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TKO",
+                        "@RepeatIndex": "7",
+                        "@TimeType": "ACT",
+                        "@xsi:nil": "true"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TDN",
+                        "@RepeatIndex": "8",
+                        "@TimeType": "EST",
+                        "#text": "2023-10-16T17:07:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TDN",
+                        "@RepeatIndex": "9",
+                        "@TimeType": "ACT",
+                        "@xsi:nil": "true"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "ONB",
+                        "@RepeatIndex": "10",
+                        "@TimeType": "SCT",
+                        "#text": "2023-10-16T16:55:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "ONB",
+                        "@RepeatIndex": "11",
+                        "@TimeType": "CAL",
+                        "#text": "2023-10-16T17:11:00Z"
+                    }
+                ],
+                "AircraftInfo": {
+                    "AircraftType": "320",
+                    "Registration": "GEUUA"
+                },
+                "ClearanceAgreement": "INT"
+            },
+            "TPA_Extension": {
+                "ba:BA_AircraftConfigurationCode": "R3C80",
+                "ba:FlightCrewAirline": {
+                    "@CodeContext": "3",
+                    "#text": "BA"
+                },
+                "ba:CabinCrewAirline": {
+                    "@CodeContext": "3",
+                    "#text": "BA"
+                },
+                "ba:AirborneRepeatNumber": "1",
+                "ba:AirborneReturnNumber": "-",
+                "ba:AirborneSlotStatus": "N",
+                "ba:DCS_AircraftTypeCode": "20C",
+                "ba:DCS_AircraftConfigurationCode": "C",
+                "ba:AircraftSubfleetCode": "32R"
+            }
+        }
+    }
+},
+{
+    "IATA_AIDX_FlightLegNotifRQ": {
+        "@xmlns": "http://www.iata.org/IATA/2007/00",
+        "@xmlns:ba": "http://baplc.com/extensionSchema",
+        "@xmlns:fo": "http://www.w3.org/1999/XSL/Format",
+        "@xmlns:thread": "java:java.lang.Thread",
+        "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@AltLangID": "en-us",
+        "@PrimaryLangID": "en-us",
+        "@SequenceNmbr": "4329",
+        "@Target": "Test",
+        "@TimeStamp": "2023-10-16T14:21:33.707Z",
+        "@TransactionIdentifier": "FLT:AXETL",
+        "@Version": "15.1",
+        "Originator": {
+            "@CompanyShortName": "BA"
+        },
+        "DeliveringSystem": {
+            "@CompanyShortName": "BA"
+        },
+        "FlightLeg": {
+            "LegIdentifier": {
+                "Airline": {
+                    "@CodeContext": "3",
+                    "#text": "BA"
+                },
+                "FlightNumber": "986",
+                "DepartureAirport": {
+                    "@CodeContext": "3",
+                    "#text": "LHR"
+                },
+                "ArrivalAirport": {
+                    "@CodeContext": "3",
+                    "#text": "BER"
+                },
+                "OriginDate": "2023-10-16",
+                "RepeatNumber": "1"
+            },
+            "LegData": {
+                "OperationalStatus": [
+                    {
+                        "@CodeContext": "1245",
+                        "@RepeatIndex": "1",
+                        "#text": "SCH"
+                    },
+                    {
+                        "@CodeContext": "1245",
+                        "@RepeatIndex": "2",
+                        "#text": "SCH"
+                    }
+                ],
+                "ServiceType": "J",
+                "EstFlightDuration": "PT88M",
+                "OwnerAirline": {
+                    "Airline": "BA"
+                },
+                "PlannedArrivalAptHistory": {
+                    "@CodeContext": "3",
+                    "@RepeatIndex": "1",
+                    "#text": "BER"
+                },
+                "AssociatedFlightLegAircraft": [
+                    {
+                        "@RepeatIndex": "1",
+                        "Airline": {
+                            "@CodeContext": "3",
+                            "#text": "BA"
+                        },
+                        "FlightNumber": "435",
+                        "DepartureAirport": {
+                            "@CodeContext": "3",
+                            "#text": "AMS"
+                        },
+                        "ArrivalAirport": {
+                            "@CodeContext": "3",
+                            "#text": "LHR"
+                        },
+                        "OriginDate": "2023-10-16",
+                        "RepeatNumber": "1"
+                    },
+                    {
+                        "@RepeatIndex": "2",
+                        "Airline": {
+                            "@CodeContext": "3",
+                            "#text": "BA"
+                        },
+                        "FlightNumber": "987",
+                        "DepartureAirport": {
+                            "@CodeContext": "3",
+                            "#text": "BER"
+                        },
+                        "ArrivalAirport": {
+                            "@CodeContext": "3",
+                            "#text": "LHR"
+                        },
+                        "OriginDate": "2023-10-16"
+                    }
+                ],
+                "AirportResources": {
+                    "@Usage": "Actual",
+                    "Resource": [
+                        {
+                            "@DepartureOrArrival": "Departure",
+                            "Runway": null,
+                            "AircraftTerminal": "5",
+                            "PublicTerminal": {
+                                "@RepeatIndex": "1",
+                                "#text": "5"
+                            }
+                        },
+                        {
+                            "@DepartureOrArrival": "Arrival",
+                            "Runway": null,
+                            "AircraftTerminal": "1",
+                            "PublicTerminal": {
+                                "@RepeatIndex": "1",
+                                "#text": "1"
+                            }
+                        }
+                    ]
+                },
+                "OperationTime": [
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "SAT",
+                        "@RepeatIndex": "1",
+                        "@TimeType": "TAR",
+                        "@xsi:nil": "true"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "OFB",
+                        "@RepeatIndex": "2",
+                        "@TimeType": "SCT",
+                        "#text": "2023-10-16T15:00:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "OFB",
+                        "@RepeatIndex": "3",
+                        "@TimeType": "CAL",
+                        "#text": "2023-10-16T15:14:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "OFB",
+                        "@RepeatIndex": "4",
+                        "@TimeType": "TAR",
+                        "#text": "2023-10-16T15:14:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TKO",
+                        "@RepeatIndex": "5",
+                        "@TimeType": "CAL",
+                        "#text": "2023-10-16T15:39:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TKO",
+                        "@RepeatIndex": "6",
+                        "@TimeType": "TAR",
+                        "@xsi:nil": "true"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TKO",
+                        "@RepeatIndex": "7",
+                        "@TimeType": "ACT",
+                        "@xsi:nil": "true"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TDN",
+                        "@RepeatIndex": "8",
+                        "@TimeType": "EST",
+                        "#text": "2023-10-16T17:07:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TDN",
+                        "@RepeatIndex": "9",
+                        "@TimeType": "ACT",
+                        "@xsi:nil": "true"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "ONB",
+                        "@RepeatIndex": "10",
+                        "@TimeType": "SCT",
+                        "#text": "2023-10-16T16:55:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "ONB",
+                        "@RepeatIndex": "11",
+                        "@TimeType": "CAL",
+                        "#text": "2023-10-16T17:11:00Z"
+                    }
+                ],
+                "AircraftInfo": {
+                    "AircraftType": "320",
+                    "Registration": "GEUUA"
+                },
+                "ClearanceAgreement": "INT"
+            },
+            "TPA_Extension": {
+                "ba:BA_AircraftConfigurationCode": "R3C80",
+                "ba:FlightCrewAirline": {
+                    "@CodeContext": "3",
+                    "#text": "BA"
+                },
+                "ba:CabinCrewAirline": {
+                    "@CodeContext": "3",
+                    "#text": "BA"
+                },
+                "ba:AirborneRepeatNumber": "1",
+                "ba:AirborneReturnNumber": "-",
+                "ba:AirborneSlotStatus": "N",
+                "ba:DCS_AircraftTypeCode": "20C",
+                "ba:DCS_AircraftConfigurationCode": "C",
+                "ba:AircraftSubfleetCode": "32R"
+            }
+        }
+    }
+},
+{
+    "IATA_AIDX_FlightLegNotifRQ": {
+        "@xmlns": "http://www.iata.org/IATA/2007/00",
+        "@xmlns:ba": "http://baplc.com/extensionSchema",
+        "@xmlns:fo": "http://www.w3.org/1999/XSL/Format",
+        "@xmlns:thread": "java:java.lang.Thread",
+        "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@AltLangID": "en-us",
+        "@PrimaryLangID": "en-us",
+        "@SequenceNmbr": "4329",
+        "@Target": "Test",
+        "@TimeStamp": "2023-10-16T14:21:33.756Z",
+        "@TransactionIdentifier": "FLT:AXETL",
+        "@Version": "15.1",
+        "Originator": {
+            "@CompanyShortName": "BA"
+        },
+        "DeliveringSystem": {
+            "@CompanyShortName": "BA"
+        },
+        "FlightLeg": {
+            "LegIdentifier": {
+                "Airline": {
+                    "@CodeContext": "3",
+                    "#text": "BA"
+                },
+                "FlightNumber": "435",
+                "DepartureAirport": {
+                    "@CodeContext": "3",
+                    "#text": "AMS"
+                },
+                "ArrivalAirport": {
+                    "@CodeContext": "3",
+                    "#text": "LHR"
+                },
+                "OriginDate": "2023-10-16",
+                "RepeatNumber": "1"
+            },
+            "LegData": {
+                "OperationalStatus": [
+                    {
+                        "@CodeContext": "9750",
+                        "@RepeatIndex": "1",
+                        "#text": "OFB"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@RepeatIndex": "2",
+                        "#text": "THM"
+                    }
+                ],
+                "ServiceType": "J",
+                "EstFlightDuration": "PT47M",
+                "OwnerAirline": {
+                    "Airline": "BA"
+                },
+                "PlannedArrivalAptHistory": {
+                    "@CodeContext": "3",
+                    "@RepeatIndex": "1",
+                    "#text": "LHR"
+                },
+                "IrregularityDelay": {
+                    "@DepartureOrArrival": "Departure",
+                    "@RepeatIndex": "1",
+                    "ReasonCode": "SG",
+                    "Duration": "PT0H5M"
+                },
+                "AssociatedFlightLegAircraft": [
+                    {
+                        "@RepeatIndex": "1",
+                        "Airline": {
+                            "@CodeContext": "3",
+                            "#text": "BA"
+                        },
+                        "FlightNumber": "434",
+                        "DepartureAirport": {
+                            "@CodeContext": "3",
+                            "#text": "LHR"
+                        },
+                        "ArrivalAirport": {
+                            "@CodeContext": "3",
+                            "#text": "AMS"
+                        },
+                        "OriginDate": "2023-10-16",
+                        "RepeatNumber": "1"
+                    },
+                    {
+                        "@RepeatIndex": "2",
+                        "Airline": {
+                            "@CodeContext": "3",
+                            "#text": "BA"
+                        },
+                        "FlightNumber": "986",
+                        "DepartureAirport": {
+                            "@CodeContext": "3",
+                            "#text": "LHR"
+                        },
+                        "ArrivalAirport": {
+                            "@CodeContext": "3",
+                            "#text": "BER"
+                        },
+                        "OriginDate": "2023-10-16"
+                    }
+                ],
+                "AirportResources": {
+                    "@Usage": "Actual",
+                    "Resource": [
+                        {
+                            "@DepartureOrArrival": "Departure",
+                            "Runway": null,
+                            "AircraftTerminal": null,
+                            "PublicTerminal": {
+                                "@RepeatIndex": "1"
+                            }
+                        },
+                        {
+                            "@DepartureOrArrival": "Arrival",
+                            "Runway": "09L",
+                            "AircraftTerminal": "5",
+                            "PublicTerminal": {
+                                "@RepeatIndex": "1",
+                                "#text": "5"
+                            }
+                        }
+                    ]
+                },
+                "OperationTime": [
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "SAT",
+                        "@RepeatIndex": "1",
+                        "@TimeType": "TAR",
+                        "@xsi:nil": "true"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "OFB",
+                        "@RepeatIndex": "2",
+                        "@TimeType": "SCT",
+                        "#text": "2023-10-16T12:55:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "OFB",
+                        "@RepeatIndex": "3",
+                        "@TimeType": "ACT",
+                        "#text": "2023-10-16T13:15:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TKO",
+                        "@RepeatIndex": "4",
+                        "@TimeType": "CAL",
+                        "#text": "2023-10-16T13:14:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TKO",
+                        "@RepeatIndex": "5",
+                        "@TimeType": "TAR",
+                        "@xsi:nil": "true"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TKO",
+                        "@RepeatIndex": "6",
+                        "@TimeType": "ACT",
+                        "#text": "2023-10-16T13:36:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TDN",
+                        "@RepeatIndex": "7",
+                        "@TimeType": "EST",
+                        "#text": "2023-10-16T14:25:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "TDN",
+                        "@RepeatIndex": "8",
+                        "@TimeType": "ACT",
+                        "@xsi:nil": "true"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "ONB",
+                        "@RepeatIndex": "9",
+                        "@TimeType": "SCT",
+                        "#text": "2023-10-16T14:10:00Z"
+                    },
+                    {
+                        "@CodeContext": "9750",
+                        "@OperationQualifier": "ONB",
+                        "@RepeatIndex": "10",
+                        "@TimeType": "CAL",
+                        "#text": "2023-10-16T14:29:00Z"
+                    }
+                ],
+                "AircraftInfo": {
+                    "AircraftType": "320",
+                    "Registration": "GEUUA"
+                },
+                "ClearanceAgreement": "INT"
+            },
+            "TPA_Extension": {
+                "ba:BA_AircraftConfigurationCode": "R3C80",
+                "ba:FlightCrewAirline": {
+                    "@CodeContext": "3",
+                    "#text": "BA"
+                },
+                "ba:CabinCrewAirline": {
+                    "@CodeContext": "3",
+                    "#text": "BA"
+                },
+                "ba:AirborneRepeatNumber": "1",
+                "ba:AirborneReturnNumber": "-",
+                "ba:AirborneSlotStatus": "N",
+                "ba:DCS_AircraftTypeCode": "20C",
+                "ba:DCS_AircraftConfigurationCode": "J",
+                "ba:AircraftSubfleetCode": "32R"
+            }
+        }
+    }
+}
+]

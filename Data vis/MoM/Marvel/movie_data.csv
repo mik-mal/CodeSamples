@@ -1,0 +1,31 @@
+film,category,worldwide_gross,budget_recovered,critics_score,audience_score,budget,year
+Ant-Man ,Ant-Man,518,3.98,0.83,0.85,130,2015
+Ant-Man & The Wasp,Ant-Man,623,4.79,0.87,0.80,130,2018
+Avengers: Age of Ultron,Avengers,1395,3.82,0.76,0.82,365,2015
+Avengers: End Game,Avengers,2797,6.99,0.94,0.90,400,2019
+Avengers: Infinity War,Avengers,2048,6.83,0.85,0.91,300,2018
+Black Panther,Black Panther,1336,6.68,0.96,0.79,200,2018
+Black Panther 2,Black Panther,855,3.42,0.84,0.94,250,2022
+Black Widow,Unique,379,1.90,0.79,0.80,200,2021
+Captain America,Captain America,370,2.64,0.79,0.75,140,2011
+Captain America: Civil War,Captain America,1151,4.60,0.90,0.89,250,2016
+Captain America: Winter Soldier,Captain America,714,4.20,0.90,0.92,170,2014
+Captain Marvel,Unique,1129,6.45,0.79,0.45,175,2019
+Dr Strange,Dr Strange,676,4.10,0.89,0.86,165,2016
+Dr Strange: Multiverse of Madness,Dr Strange,952,4.76,0.74,0.77,200,2022
+Eternals,Unique,402,2.01,0.47,0.73,200,2021
+Guardians of the Galaxy,Guardians,770,4.53,0.92,0.92,170,2014
+Guardians of the Galaxy 2,Guardians,869,4.35,0.85,0.87,200,2017
+Incredible Hulk,Unique,265,1.93,0.67,0.69,137.5,2008
+Iron Man,Iron Man,585,3.15,0.94,0.91,186,2008
+Iron Man 2,Iron Man,621,3.65,0.71,0.71,170,2010
+Iron Man 3,Iron Man,1215,6.08,0.79,0.78,200,2013
+Shang-Chi,Unique,432,2.88,0.91,0.93,150,2021
+Spider-Man: Far from Home,Spider-Man,1132,7.08,0.90,0.93,160,2019
+Spider-Man: Homecoming,Spider-Man,878,5.02,0.92,0.87,175,2017
+Spider-Man: No Way Home,Spider-Man,1911,9.56,0.93,0.96,200,2021
+The Avengers,Avengers,1515,6.73,0.91,0.91,225,2012
+Thor: Dark World,Thor,644,4.29,0.66,0.75,150,2013
+Thor: Love & Thunder,Thor,745,2.98,0.64,0.63,250,2022
+Thor: Ragnarok,Thor,850,4.72,0.93,0.87,180,2017
+Thor,Thor,449,2.99,0.77,0.76,150,2011
